@@ -9,21 +9,21 @@ il gruppo si pone come obiettivo quello di realizzare un'applicazione orientata 
 
 Funzionalità minimali ritenute obbligatorie:
 
-- Creazione di un livello per classe di ostacoli
+- Creazione dei livelli per classe di ostacoli
 - implementazinoe di ostacoli statici e dinamici: pits, spikes, walls, saws (coins)
 - gestione di fine livello
-- personaggio giocabile in gradi di muoversi in due direzioni e salto
+- personaggio giocabile in grado di muoversi in due direzioni e salto
 - gestione eventi di collisioni
+- interfaccia di selezioni dei livelli (menu)
+- salvataggio dello stato gioco
 - grafica minimale
 
 Funzionalità opzionali:
 
-- interfaccia di selezioni dei livelli (menu)
-- salvataggio dello stato gioco
+- creazione livello tutorial
 - multiplayer
 - gestione di ostacoli dinamici (springs)
-- creazione livello tutorial
-- score (death counter), coins
+- score (death counter)
 
 "Challenge" principali:
 
@@ -31,16 +31,15 @@ Funzionalità opzionali:
 - assicurarsi che gli elementi di gioco siano facilmente estendibili per consentire aggiunte future
 - sviluppare un'interfaccia utente (GUI) appropriata
 - dinamicità degli ostacoli
-- triggers: (button, warping, controls)
 
 Suddivisione del lavoro:
 
-- Olivieri: player , gravità,
-- Falcao: gestione IO,
-- Elia:
-- Ji:
+- Olivieri: lethal obstacles, player and gravity
+- Falcao: harmless obstacles, trasformation and I/0
+- Elia: game loop, game world, save and score
+- Ji: triggers, collision and menu
 
-menu, ambiente e mappa, personaggio, gravità, movimento e controlli, javaFx, gameEngine, salvataggio, score, multyplayer e livelli cooperativi, tutorial
+<!-- menu, ambiente e mappa, personaggio, gravità, movimento e controlli, javaFx, gameEngine, salvataggio, score, multyplayer e livelli cooperativi, tutorial
 
 oggetto: pits, spikes, walls, saws (coins), button, warping, controls, springs
 
@@ -53,11 +52,11 @@ player
 
 obstacle
 
-Falcao => Obstacle (No Die) : walls, platforms, (2/3)coins, springs -> 7/10
+Falcao => Harmless Obstacles: walls, platforms, (2/3)coins, springs -> 7/10
 
-Michele => Obstacle (Die) : spikes, saws, (1/3)coins -> 7/10
+Michele => Lethal Obstacles: spikes, saws, (1/3)coins -> 7/10
 
-Ji => Trigger : button, controls, warps -> 7/10
+Ji => Triggers : button, controls, warps -> 7/10
 
 Falcao => I/0 -> 4/10
 
@@ -65,14 +64,14 @@ Elia => Game Engine -> 5/10
 
 Michele => Player -> 4/10
 
-Michele => Gravità -> 4/10
+Michele => Gravity -> 4/10
 
 Elia => Game World -> 6/10
 
 Falcao => Trasformation -> 7/10
 
-Ji => Collisione -> 6/10
+Ji => Collision -> 6/10
 
-Elia => Salvataggio e Score -> 2/10
+Elia => Save and Score -> 2/10
 
-Ji => Menu -> 3/10
+Ji => Menu -> 3/10 -->
