@@ -5,39 +5,42 @@ Email dei componenti:
 - junkai.ji@studio.unibo.it
 - pierdavide.elia@studio.unibo.it
 
-il gruppo si pone come obiettivo quello di realizzare un'applicazione orientata agli appassionati di coltivazione di peperoncino, che permetta di gestirne i principali aspetti, come ricerca informazioni, calcoli temperatura, stime necessità irrigazione, graficazione risultati.
+## DESCRIZIONE
+
+Il gruppo si pone come obbiettivo quello di realizzare un platform game: 'Paradox Platformer' un avventura in cui il giocatore esplora diverse mappe affrontando sfide e risolvendo enigmi per raggiungere la porta di endgame. Il cuore del gioco si basa sull'idea di ostacoli controintuitivi, dove il giocatore deve superare ostacoli che sfidano le normali dinamiche di gioco.
 
 Funzionalità minimali ritenute obbligatorie:
 
-- Creazione dei livelli per classe di ostacoli
-- implementazinoe di ostacoli statici e dinamici: pits, spikes, walls, saws (coins)
+- Creazione di un livello per classe di ostacoli
+- implementazione di ostacoli statici e dinamici
 - gestione di fine livello
 - personaggio giocabile in grado di muoversi in due direzioni e salto
-- gestione eventi di collisioni
+- gestione eventi di collisioni tra il personaggio e vari oggetti
 - interfaccia di selezioni dei livelli (menu)
 - salvataggio dello stato gioco
-- grafica minimale
 
 Funzionalità opzionali:
 
-- creazione livello tutorial
-- multiplayer
-- gestione di ostacoli dinamici (springs)
-- score (death counter)
+- Creazione livello tutorial
+- Multiplayer
+- Aumentare il numero di ostacoli
+- Score (death counter)
 
 "Challenge" principali:
 
-- gestione accurata della dinamica tra il personaggio e gli ostacoli
-- assicurarsi che gli elementi di gioco siano facilmente estendibili per consentire aggiunte future
-- sviluppare un'interfaccia utente (GUI) appropriata
-- dinamicità degli ostacoli
+- Gestione accurata della dinamica tra il personaggio e gli ostacoli.
+- Sviluppo del modifier in grado di regolare le dinamiche di comportamento dei componenti del gioco
+- Sviluppare un'interfaccia utente (GUI) appropriata.
+- Effetti prodotti dagli ostacoli.
+- Creazione del game loop.
+- Assicurarsi che gli elementi di gioco siano facilmente estendibili per consentire aggiunte future.
 
 Suddivisione del lavoro:
 
-- Olivieri: lethal obstacles, player and gravity
-- Falcao: harmless obstacles, trasformation and I/0
-- Elia: game loop, game world, save and score
-- Ji: triggers, collision and menu
+- Olivieri: Implementazione degli ostacoli di tipo letale, del personaggio principale e della gravità.
+- Falcao: Implementazione degli ostacoli di tipo non letale, dei modifier delle entità e della gestione dell'I/O.
+- Elia: Implementazione del mondo di gioco, gestione del game loop e salvataggio del gioco.
+- Ji: Implementazione degli eventi di collisione tra il personaggio e gli oggetti, dei trigger e del menu.
 
 <!-- menu, ambiente e mappa, personaggio, gravità, movimento e controlli, javaFx, gameEngine, salvataggio, score, multyplayer e livelli cooperativi, tutorial
 
