@@ -7,7 +7,7 @@ Email dei componenti:
 
 ## DESCRIZIONE
 
-Il gruppo si pone come obbiettivo quello di realizzare un platform game: 'Paradox Platformer' un avventura in cui il giocatore esplora diverse mappe affrontando sfide e risolvendo enigmi per raggiungere la porta di endgame. Il cuore del gioco si basa sull'idea di ostacoli controintuitivi, dove il giocatore deve superare ostacoli che sfidano le normali dinamiche di gioco.
+Il gruppo si pone come obbiettivo quello di realizzare un platform game chiamato 'Paradox Platformer', un avventura in cui il giocatore esplora diverse mappe affrontando sfide e risolvendo enigmi per raggiungere la porta di endgame. Il cuore del gioco si basa sull'idea innovativa di oggetti, ostacoli e triggers controintuitivi, che mettono il giocatore di fronte a sfide in grado di sovvertire le dinamiche di gioco tradizionali.
 
 Funzionalità minimali ritenute obbligatorie:
 
